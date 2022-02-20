@@ -19,7 +19,7 @@ function NavbarChild() {
     return (
         <>
             <a className="navbar-brand" href="#">
-                <img className={scrollLandImg ? "logo-blue" : "logo-white"} src={scrollLandImg ? "assets/logo/logo-blue.webp" :  "assets/logo/img-logo-white.png" } />
+                <img className={scrollLandImg ? "logo-blue" : "logo-white"} src={scrollLandImg ? process.env.PUBLIC_URL + '/assets/logo/logo-blue.webp': process.env.PUBLIC_URL + '/assets/logo/img-logo-white.png'} />
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@ function NavbarChild() {
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul className="navbar-nav mr-auto">
-                    <li className={`${scrollLand} nav-item`}>
+                    <li className={`${scrollLand} nav-item`}> 
                         <a className="nav-link" href="#">About</a>
                     </li>
                     <li className={`${scrollLand} nav-item`}>

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+$licorie : 'Licorice', cursive;
+$roboto : 'Roboto', sans-serif;
+$openSans : 'Open Sans', sans-serif;
+$montserrat : 'Montserrat', sans-serif;
+
+$black : #454f5a;
+$yellow : #F6B23D;
+.landing-heading{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    h3 {
+        color: $black;
+        font-weight: bold;
+        font-size: 32px;
+        align-items: center;
+        span.heading-hover {
+            color: $yellow;
+            text-decoration: dashed;
+            cursor: pointer;
+            border-bottom: 3px dashed $yellow;
+        }
+
+        span.heading-hover:hover {
+            color: $black;
+            border-bottom: 3px dashed $black;
+        }
+
+        .down-icon {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    .section--underline {
+        border-bottom: 6px solid #fef3e0;
+        margin: 2% 2%;
+    }
+}

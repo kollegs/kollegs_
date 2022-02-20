@@ -23,7 +23,7 @@ function Landpage() {
                     </div>
                     <div className="col-lg-6 landpage-section-b ">
                         <div className="heading-image">
-                            <img src="assets/SectionA/A.png"
+                            <img src={process.env.PUBLIC_URL + '/assets/SectionA/A.png'}
                                 className="heading-image img-responsive img-fluid" />
                             <div className="stage"></div>
                         </div>
@@ -35,3 +35,5 @@ function Landpage() {
 }
 
 export default Landpage
+
+

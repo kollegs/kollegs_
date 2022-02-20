@@ -17,7 +17,7 @@ function SectionB() {
             <div className='col-lg-12 row'>
                 {offersData.map(offer => {
                     return <div className='col-lg-4 offer-item'>
-                        <img src={offer.imageUrl} className='img-responsive img-fluid offer-img' 
+                        <img src={process.env.PUBLIC_URL + offer.imageUrl} className='img-responsive img-fluid offer-img' 
                          />
                         <h3 className='offer-title'> {offer.heading} </h3>
                         <div className='offer-underline' />
