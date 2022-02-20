@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+$licorie : 'Licorice', cursive;
+$roboto : 'Roboto', sans-serif;
+$openSans : 'Open Sans', sans-serif;
+$montserrat : 'Montserrat', sans-serif;
+
+$black : #454f5a;
+$blue : #58caff;
+$pink : #ff5488;
+$grey: #9f9cab;
+
+.sectionB {
+    margin-left: 11%;
+    margin-top: 10%;
+    h1.heading {
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 1px;
+        font-family: $montserrat;
+        color: $black;
+        
+    }
+
+    p.subtitle {
+        font-family: $montserrat;
+        color: $black;
+        margin: 2% 0px;
+    }
+
+    .offer-item {
+        margin-top: 2%;
+        .offer-img {
+           width: 200px;
+        }
+        .offer-title {
+            color: #44485D;
+            font-weight: bold;
+            margin-top: 20px;
+            font-family: $montserrat;
+            font-size: 25px;
+        }
+        .offer-underline {
+            border-bottom: 6px solid $pink;
+            margin: 20px 0px
+        }
+        .offer-description {
+            font-size: 16px;
+            font-family: $montserrat;
+            color: $grey;
+            word-spacing: 0.1px;
+        }
+    }
+
+    .section--underline {
+        border-bottom: 6px solid #fef3e0;
+        margin: 5% 2%;
+    }
+}

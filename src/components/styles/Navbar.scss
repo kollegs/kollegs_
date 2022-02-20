@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+$licorie : 'Licorice', cursive;
+$roboto : 'Roboto', sans-serif;
+$openSans : 'Open Sans', sans-serif;
+$montserrat : 'Montserrat', sans-serif;
+
+$black : #454f5a;
+
+
+.navbar {
+    font-family: $openSans;
+    background-color: #ff5488!important;
+    color: #ff5488!important;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    transition: all 0.2s linear;
+}
+                
+.navbar-height {
+    font-family: $openSans;
+    background-color: white!important;
+    color: #ff5488!important;
+    border-bottom : 6px solid #ff5488;
+    width: 100%;
+    z-index: 2;
+}
+
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white!important;
+    font-weight: 400;
+}
+
+.nav-item a {
+    color: #fff!important;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-item-scroll {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black!important;
+    font-weight: 400;
+}
+
+.nav-item-scroll a {
+    color: black!important;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 90%;
+	/* align-items: flex-end; */
+    left: 0;
+    right: 0;
+	padding: 15px;
+}
+
+a.dropdown-item {
+    color: black!important;
+}
+
+img.logo-white , img.logo-blue {
+    padding-right: 50px;
+    padding-left: 200px;
+}
+
+img.logo-white {
+    padding-right: 50px;
+    padding-left: 200px;
+}
+
+
+
+// Small Screen
+@media only screen and (max-width: 1200px) {
+    img.logo-white {
+        padding-left: 150px;
+    }
+
+    img.logo-blue {
+        padding-left: 150px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    img.logo-white {
+        padding-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    img.logo-white {
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    img.logo-white {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    img.logo {
+        padding-left: 10px;
+    }
+}
