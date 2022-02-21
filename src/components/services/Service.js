@@ -9,7 +9,7 @@ function Service() {
   }
 
   return (
-    <div className='container' style={{marginTop: "10%"}}>
+    <div className='container' style={{marginTop: "5%"}}>
       <div className="landing-heading">
         <div className='section--underline' />
         <h3 onClick={handleOpen} >INSTANT SUCCESS WITH

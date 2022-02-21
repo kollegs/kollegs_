@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/landpage.scss'
+import Lottie from "lottie-react";
+import Study from "../../animation/82662-student.json"
 
 function Landpage() {
     return (
@@ -22,10 +24,12 @@ function Landpage() {
                         </div>
                     </div>
                     <div className="col-lg-6 landpage-section-b ">
-                        <div className="heading-image">
-                            <img src={process.env.PUBLIC_URL + '/assets/SectionA/A.png'}
+                        <div className="heading-image" style={{height: "100%", width: "100%"}}>
+                            {/* <img src={process.env.PUBLIC_URL + '/assets/SectionA/A.png'}
                                 className="heading-image img-responsive img-fluid" />
-                            <div className="stage"></div>
+                            <div className="stage"></div> */}
+                            {/* <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_xcpxkfnu.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player> */}
+                            <Lottie animationData={Study} />
                         </div>
                     </div>
                 </div>

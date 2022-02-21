@@ -34,9 +34,14 @@ $grey: #9f9cab;
 
     .offer-item {
         margin-top: 2%;
-        .offer-img {
-           width: 200px;
+        height: 100%;
+        width: 100%;
+        
+        svg {
+            height: 200px;
+            width: 200px;
         }
+    
         .offer-title {
             color: #44485D;
             font-weight: bold;
@@ -56,5 +61,7 @@ $grey: #9f9cab;
         }
     }
 }
+
+
 
 

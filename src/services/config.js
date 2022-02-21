@@ -1,10 +1,12 @@
+import Clock from "../animation/16226-clock-animation.json"
+
 const config = {
     offersList : [
         {
             id: 1,
             heading: "Stay in the Loop 24/7",
             subtitle: "With round-the-clock support and direct access to your expert, you can access our online assignment writing service immediately, whenever you want.",
-            imageUrl: "/assets/SectionB/Clock.webp"
+            imageUrl: Clock
         },
         {
             id: 2,

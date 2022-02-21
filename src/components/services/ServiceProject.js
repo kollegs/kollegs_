@@ -5,6 +5,7 @@ import { TabContext } from '@material-ui/lab';
 import { TabList } from '@material-ui/lab';
 import { TabPanel } from '@material-ui/lab';
 import config from "../../services/config"
+import { fontFamily } from '@mui/system';
 export default function ServiceProject() {
     const [value, setValue] = React.useState("1")
     const [selected, setSelected] = React.useState("1")
@@ -24,7 +25,8 @@ export default function ServiceProject() {
         zIndex: "100",
         fontSize: "20px",
         textAlign: " center",
-        textTransform: "capitalize"
+        textTransform: "capitalize",
+        fontFamily: "'Open Sans', sans-serif"
     }
 
     const tabStyle2 = {

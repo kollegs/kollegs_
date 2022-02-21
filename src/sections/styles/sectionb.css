@@ -24,9 +24,13 @@
 
 .sectionB .offer-item {
   margin-top: 2%;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
-.sectionB .offer-item .offer-img {
+.sectionB .offer-item svg {
+  height: 200px;
   width: 200px;
 }
 
@@ -48,92 +52,5 @@
   font-family: "Montserrat", sans-serif;
   color: #9f9cab;
   word-spacing: 0.1px;
-}
-
-.service-options {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.service-options .tab-context {
-  margin-top: 5%;
-}
-
-.service-options .tab-list {
-  width: 100%;
-  padding: "0px 10px";
-}
-
-.service-options .tab-list .service-tab {
-  position: relative;
-}
-
-.service-options .tab-list .service-tab .tab-image {
-  position: absolute;
-  top: 15%;
-  z-index: -1;
-  left: 2%;
-}
-
-.service-options .tab-list .service-tab .tab-option {
-  margin: 20px;
-  padding: 50px 40px;
-  display: inline-block;
-  color: black;
-  font-weight: bold;
-  z-index: 100;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.service-options .tab-panel {
-  height: 400px;
-  width: 400px;
-  border-radius: 50%;
-  background-color: #58caff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
-  padding: 15px;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.service-options .tab-panel .tab-panel-title {
-  font-family: "Montserrat", sans-serif;
-  color: #454f5a;
-  font-weight: bold;
-}
-
-.service-options .tab-panel .tab-panel-description {
-  font-family: "Open Sans", sans-serif;
-  margin-top: 5%;
-}
-
-.service-options .tab-label {
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
-  text-transform: capitalize;
 }
 /*# sourceMappingURL=sectionb.css.map */

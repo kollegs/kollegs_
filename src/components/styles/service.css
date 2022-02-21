@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 .landing-heading {
-  margin-top: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -26,6 +25,8 @@
           text-decoration: dashed;
   cursor: pointer;
   border-bottom: 3px dashed #F6B23D;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .landing-heading h3 span.heading-hover:hover {
@@ -55,10 +56,6 @@
           align-items: center;
 }
 
-.service-options .tab-context {
-  margin-top: 5%;
-}
-
 .service-options .tab-list {
   width: 100%;
   padding: "0px 10px";
@@ -66,6 +63,8 @@
 
 .service-options .tab-list .service-tab {
   position: relative;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .service-options .tab-list .service-tab .tab-image {
@@ -128,5 +127,7 @@
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 /*# sourceMappingURL=service.css.map */
