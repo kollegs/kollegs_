@@ -11,6 +11,9 @@ $montserrat : 'Montserrat', sans-serif;
 
 $black : #454f5a;
 $yellow : #F6B23D;
+$blue : #58caff;
+$pink : #ff5488;
+$grey: #9f9cab;
 .landing-heading{
     margin-top: 20px;
     align-items: center;
@@ -41,5 +44,77 @@ $yellow : #F6B23D;
     .section--underline {
         border-bottom: 6px solid #fef3e0;
         margin: 2% 2%;
+    }
+}
+
+
+.service-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .tab-context {
+        margin-top: 5%;
+    }
+
+    .tab-list {
+        width: 100%;
+        padding: "0px 10px";
+        .service-tab {
+            position: relative;
+            .tab-image {
+                position: absolute;
+                top: 15%;
+                z-index: -1;
+                left: 2%;
+            }
+
+            .tab-option {
+                margin: 20px;
+                padding: 50px 40px;
+                display: inline-block;
+                color: black;
+                font-weight: bold;
+                z-index: 100;
+                font-size: 20px;
+                font-family: $openSans;
+                text-align: center;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .tab-panel {
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        background-color:$blue ;
+        align-items: center;
+        margin: auto;
+        padding: 15px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .tab-panel-title {
+            font-family: $montserrat;
+            color: $black;
+            font-weight: bold;
+        }
+
+        .tab-panel-description {
+            font-family: $openSans;
+            margin-top: 5%;
+            
+        }
+    }
+
+    .tab-label {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: $openSans;
+        text-transform: capitalize;
     }
 }

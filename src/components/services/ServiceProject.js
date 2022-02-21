@@ -17,13 +17,14 @@ export default function ServiceProject() {
 
     const tabStyle = {
         margin: "20px",
-        padding: "50px 20px",
+        padding: "50px 40px",
         display: "inline-block",
         color: "black",
         fontWeight: "bold",
         zIndex: "100",
         fontSize: "20px",
-        textAlign: " center"
+        textAlign: " center",
+        textTransform: "capitalize"
     }
 
     const tabStyle2 = {
@@ -38,14 +39,14 @@ export default function ServiceProject() {
         <div className='service-options'>
             <Box sx={{ width: '100%', typography: 'body1' }}>
                 <TabContext value={value} className="tab-context">
-                    <TabList className='tab-list' style={{marginTop: "3%"}} onChange={handleChange} aria-label="lab API tabs example" centered>
+                    <TabList className='tab-list' style={{marginTop: "1%"}} onChange={handleChange} aria-label="lab API tabs example" centered>
                         {selected === "1" ?
                             <div className='service-tab'>
                                 <img className="tab-image" src='https://assignmentgeek.com/theme/0.loc/img/images/service-list-1.svg' />
                                 <Tab style={tabStyle} label="Content Writing" value="1" />
                             </div>
                             :
-                            <Tab label="Content Writing" value="1" style={{ color: "black", fontWeight: "bold", fontSize: "20px" }} />
+                            <Tab label="Content Writing" value="1" className='tab-label' />
                         }
                         {selected === "2" ?
                             <div className='service-tab'>
@@ -53,7 +54,7 @@ export default function ServiceProject() {
                                 <Tab style={tabStyle} className='tab-option' label="Essay Writing" value="2" />
                             </div>
                             :
-                            <Tab label="Essay Writing" value="2" style={{ color: "black", fontWeight: "bold", fontSize: "20px" }} />
+                            <Tab label="Essay Writing" value="2" className='tab-label' />
                         }
 
                         {selected === "3" ?
@@ -61,14 +62,14 @@ export default function ServiceProject() {
                                 <img className="tab-image" src='https://assignmentgeek.com/theme/0.loc/img/images/service-list-3.svg' />
                                 <Tab className='tab-option' label="Powerpoint" value="3" />
                             </div> :
-                            <Tab label="Presentations" value="3" style={{ color: "black", fontWeight: "bold", fontSize: "20px" }} />
+                            <Tab label="Presentations" value="3" className='tab-label' />
                         }
                         {selected === "4" ?
                             <div className='service-tab'>
                                 <img className="tab-image" src='https://assignmentgeek.com/theme/0.loc/img/images/service-list-4.svg' />
                                 <Tab className='tab-option' label="Development" value="4" />
                             </div> :
-                            <Tab label="Development" value="4" style={{ color: "black", fontWeight: "bold", fontSize: "20px" }} />
+                            <Tab label="Development" value="4" className='tab-label' />
                         }
                     </TabList>
 

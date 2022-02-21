@@ -84,7 +84,7 @@
 
 .service-options .tab-list .service-tab .tab-option {
   margin: 20px;
-  padding: 50px 30px;
+  padding: 50px 40px;
   display: inline-block;
   color: black;
   font-weight: bold;
@@ -92,6 +92,7 @@
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .service-options .tab-panel {
@@ -126,5 +127,13 @@
 .service-options .tab-panel .tab-panel-description {
   font-family: "Open Sans", sans-serif;
   margin-top: 5%;
+}
+
+.service-options .tab-label {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=sectionb.css.map */
