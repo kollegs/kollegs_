@@ -29,7 +29,7 @@ function Landpage() {
                                 className="heading-image img-responsive img-fluid" />
                             <div className="stage"></div> */}
                             {/* <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_xcpxkfnu.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player> */}
-                            <Lottie animationData={Study} />
+                            <Lottie animationData={Study} loop={true} />
                         </div>
                     </div>
                 </div>

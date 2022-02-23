@@ -43,6 +43,67 @@ const config = {
             title: "Development",
             description: "Writing a thorough and well-referenced research paper is no picnic: it requires deep knowledge and understanding of your subject, and that’s exactly what your expert will deliver. In-depth research and breakthrough insights are a given."
         }
+    ],
+
+    projectData: [
+        {
+            id: 1,
+            title: "Content",
+            description: "From business and programming to medicine and genetic engineering, we have career professionals that know your field inside-out. With hands-on experience in your niche, they know how to make your teachers impressed",
+            imageUrl: "/assets/projects/content.webp"
+        
+        },
+        {
+            id: 2,
+            title: "Development",
+            description: "From business and programming to medicine and genetic engineering, we have career professionals that know your field inside-out. With hands-on experience in your niche, they know how to make your teachers impressed",
+            imageUrl: "/assets/projects/development.webp"
+        },
+        {
+            id: 3,
+            title: "Programming",
+            description: "From business and programming to medicine and genetic engineering, we have career professionals that know your field inside-out. With hands-on experience in your niche, they know how to make your teachers impressed",
+            imageUrl: "/assets/projects/programming.webp"
+        },
+        {
+            id: 4,
+            title: "Presentation",
+            description: "From business and programming to medicine and genetic engineering, we have career professionals that know your field inside-out. With hands-on experience in your niche, they know how to make your teachers impressed",
+            imageUrl: "/assets/projects/presentation.webp"
+        },
+        {
+            id: 5,
+            title: "Research",
+            description: "From business and programming to medicine and genetic engineering, we have career professionals that know your field inside-out. With hands-on experience in your niche, they know how to make your teachers impressed",
+            imageUrl: "/assets/projects/research.webp"
+        },
+        {
+            id: 6,
+            title: "Papers",
+            description: "From business and programming to medicine and genetic engineering, we have career professionals that know your field inside-out. With hands-on experience in your niche, they know how to make your teachers impressed",
+            imageUrl: "/assets/projects/papers.webp"
+        },
+    ],
+
+    processData: [
+        {
+            value: "1",
+            title: "Order",
+            imageUrl: "/assets/process/orders.svg",
+            description: "Fill our order form with all the details you want. That way, you're guaranteed to get the results you're looking for.",
+        },
+        {
+            value: "2",
+            title: "Search",
+            imageUrl: "/assets/process/search.png",
+            description: "We can assign an expert for you, or you can choose your champion from our diverse pool yourself – it's up to you."
+        },
+        {
+            value: "3",
+            title: "Chats",
+            imageUrl: "/assets/process/chat.png",
+            description: "Chat with the writer and have changes made as you go. We'll adapt to you at every stage, from research to formatting."
+        }
     ]
 }
 

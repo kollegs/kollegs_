@@ -20,17 +20,17 @@ function SectionB() {
             <div className='col-lg-12 row'>
                 <div className='col-lg-4 offer-item'>
                     <div style={{ height: "200px", width: "200px", position: "relative", margin: "auto" }}>
-                        <Lottie animationData={Clock} />
+                        <Lottie animationData={Clock} loop={true} />
                     </div>
                     <div>
                         <h3 className='offer-title'> {offersData[0].heading} </h3>
                         <div className='offer-underline' />
-                        <p className='offer-description' > {offersData[0].subtitle} </p>
+                        <p className='offer-description'> {offersData[0].subtitle} </p>
                     </div>
                 </div>
                 <div className='col-lg-4 offer-item'>
                     <div style={{ height: "200px", width: "200px", position: "relative", margin: "auto" }}>
-                        <Lottie animationData={Notes} />
+                        <Lottie animationData={Notes} loop={true} />
                     </div>
                     <div>
                         <h3 className='offer-title'> {offersData[1].heading} </h3>
@@ -40,7 +40,7 @@ function SectionB() {
                 </div>
                 <div className='col-lg-4 offer-item'>
                     <div style={{ height: "200px", width: "200px", position: "relative", margin: "auto" }}>
-                        <Lottie animationData={Target} />
+                        <Lottie animationData={Target} loop={true} />
                     </div>
                     <div>
                         <h3 className='offer-title'> {offersData[2].heading} </h3>

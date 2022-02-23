@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+$licorie : 'Licorice', cursive;
+$roboto : 'Roboto', sans-serif;
+$openSans : 'Open Sans', sans-serif;
+$montserrat : 'Montserrat', sans-serif;
+
+$black : #454f5a;
+$yellow : #F6B23D;
+$blue : #58caff;
+$pink : #ff5488;
+$grey: #9f9cab;
+
+
+.project-item {
+    
+    position: relative;
+}
+
+.middle-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.middle-image-1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.middle-image-2 {
+    position: absolute;
+    margin: auto;
+    left: 0%;
+    right: 20%;
+     
+    
+}
+
+.project-image {
+    padding: 10px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.project-title {
+    color: $black;
+    font-family: $openSans;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    transition: all 0.5s linear;
+
+}
+
+.middle-column {
+    align-items: center;
+    text-align: center;
+
+}
+
+.project-description {  
+    font-size: 16px;
+    font-family: $montserrat;
+    color: #9f9cab;
+    font-weight: bold;
+    transition: all 0.5s linear;
+
+}
+
+.project-button {
+    width: 200px;
+    padding: 15px;
+    background-color: #f6b23d;
+    border: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+
+// @media only screen and (max-width: 1215px) {
+//     .project-image {
+//         width: 280px;
+//     }
+
+//     .middle-image-2 {
+//         width: 350px;
+//     }
+// }
+
+// @media only screen and (max-width: 1072px) {
+//     .project-image {
+//         width: 270px;
+//     }
+
+//     .middle-image-2 {
+//         width: 320px;
+//     }
+
+    
+// }
+
+// @media only screen and (max-width: 992px) {
+//     .project-image {
+//         width: 250px;
+//     }
+
+//     .middle-image-2 {
+//         width: 320px;
+//     }
+
+//     .middle-column {
+//         padding-left: 10%;
+//     }
+// }
+
+// @media only screen and (max-width: 837px) {
+//     .project-image {
+//         width: 230px;
+//     }
+
+//     .middle-image-2 {
+//         width: 300px;
+//     }
+
+//     .middle-column {
+//         padding-left: 10%;
+//     }
+// }
+
+// @media only screen and (max-width: 672px) {
+//     .project-image {
+//         width: 200px;
+//     }
+
+//     .middle-image-2 {
+//         width: 300px;
+//     }
+
+//     .middle-column {
+//         padding-left: 10%;
+//     }
+// }
