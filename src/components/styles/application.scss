@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+$licorie : 'Licorice', cursive;
+$roboto : 'Roboto', sans-serif;
+$openSans : 'Open Sans', sans-serif;
+$montserrat : 'Montserrat', sans-serif;
+
+$black : #454f5a;
+$yellow : #F6B23D;
+$blue : #58caff;
+$pink : #ff5488;
+$grey: #9f9cab;
+
+.application-heading {
+    margin-top: 10%;
+    font-family: $montserrat;
+    font-size: 40px;
+    color: $black;
+    text-align: center;
+}
+
+.application-desc {
+    font-family: $openSans;
+    color: $black;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.accordian-title {
+    font-family: $montserrat;
+    font-size: 24px;
+    color: $black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.expandIconWrapper {
+    font-size: 40px;
+    color: $pink;
+}
+
+.collapsIconWrapper {
+    font-size: 40px;
+    color: $pink;
+}
+
+.item-question {
+    color: "#5D5777";
+    font-weight: bold;
+    font-size: 24px;
+}

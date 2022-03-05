@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+$licorie : 'Licorice', cursive;
+$roboto : 'Roboto', sans-serif;
+$openSans : 'Open Sans', sans-serif;
+$montserrat : 'Montserrat', sans-serif;
+
+$black : #454f5a;
+$yellow : #F6B23D;
+$blue : #58caff;
+$pink : #ff5488;
+$grey: #9f9cab;
+
+.review-heading {
+    margin-top: 20%;
+    font-family: $montserrat;
+    font-size: 40px;
+    color: $black;
+    
+}
+
+.review-desc {
+    font-family: $openSans;
+    color: $black;
+    margin-top: 20px;
+    font-family: 18px;
+}
