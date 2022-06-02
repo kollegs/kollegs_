@@ -11,22 +11,24 @@ function NavBar() {
 
     React.useEffect(() => {
         window.addEventListener('scroll', () => {
-          if(window.scrollY > 500) {
+            if (window.scrollY > 500) {
                 setScrollLand("navbar-height")
             } else {
                 setScrollLand("")
             }
         })
-    },[])
+    }, [])
 
     return (
         <>
-          
-            <HeadCurve />
-            <nav className={`${scrollLand} navbar navbar navbar-expand-lg navbar-light rounded`}>
-                <NavbarChild toggleChange={scrollLand} />
-            </nav> 
+            
+                <HeadCurve />
+                <nav className={`${scrollLand} navbar navbar navbar-expand-lg navbar-light rounded`}>
 
+                    <NavbarChild toggleChange={scrollLand} />
+
+                </nav>
+            
         </>
     )
 }

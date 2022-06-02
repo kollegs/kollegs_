@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&family=Urbanist:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+.about-us {
+  background-color: white;
+  height: 100vh;
+  position: relative;
+  padding: 0px 100px;
+}
+
+.aboutUs-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+}
+
+.aboutUs-heading {
+  font-size: 70px;
+  padding-top: 200px;
+  color: #454f5a;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.row {
+  height: 100%;
+}
+
+.aboutUs-content {
+  padding-top: 30px;
+}
+
+.gif-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  padding: 100px;
+}
+/*# sourceMappingURL=aboutUs.css.map */

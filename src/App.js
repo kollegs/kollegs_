@@ -1,23 +1,17 @@
+import Navbar from './components/Navbar/NavBar'
 import './App.css';
-import Service from './components/services/Service';
-import Process from './components/process/Process';
-import Landpage from './sections/Landpage';
-import Offers from './sections/Offers';
-import ProjectSection from './sections/ProjectSection';
-import Payment from './components/Payments/Payment';
-import Application from './components/faqs/Application';
-import Faqs from './components/faqs/Faqs';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home'
+import About from './components/About';
 import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Landpage />
-      <Offers/>
-      <Service />
-      <ProjectSection />
-      <Process />
-      <Payment />
-      <Faqs />
+      <Navbar />
+      <Routes>
+        <Route path='/kollegs_' element={<Home />} />
+        <Route path='/kollegs_/about' element={<About />} />
+      </Routes>
       <Footer />
     </div>
   );

@@ -1,5 +1,8 @@
 import React from 'react'
+import About from '../About'
 import '../styles/Navbar.scss'
+import { Link, Routes, Route } from 'react-router-dom';
+import Home from '../../Home';
 
 function NavbarChild() {
     const [scrollLand, setScrollLand] = React.useState("")
@@ -18,9 +21,9 @@ function NavbarChild() {
    
     return (
         <>
-            <a className="navbar-brand" href="#">
+            <Link to="/kollegs_" className="navbar-brand" href="#">
                 <img className={scrollLandImg ? "logo-blue" : "logo-white"} src={scrollLandImg ? process.env.PUBLIC_URL + '/assets/logo/logo-blue.webp': process.env.PUBLIC_URL + '/assets/logo/img-logo-white.png'} />
-            </a>
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -28,9 +31,9 @@ function NavbarChild() {
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul className="navbar-nav mr-auto">
-                    <li className={`${scrollLand} nav-item`}> 
+                    <Link to="/kollegs_/about" className={`${scrollLand} nav-item`}> 
                         <a className="nav-link" href="#">About</a>
-                    </li>
+                    </Link>
                     <li className={`${scrollLand} nav-item`}>
                         <a className="nav-link" href="#">Pricing</a>
                     </li>
@@ -63,6 +66,8 @@ function NavbarChild() {
                     <li className={`${scrollLand} nav-item`}>
                         <a className="nav-link" href="#">Contact</a>
                     </li>
+
+                    
                 </ul> 
             </div>
         </>
