@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path='/kollegs_' element={<Home />} />
         <Route path='/kollegs_/about' element={<About />} />
+        <Route path='/kollegs_/pricing' element={<About />} />
       </Routes>
       <Footer />
     </div>

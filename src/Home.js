@@ -5,13 +5,14 @@ import Service from './components/services/Service'
 import ProjectMain from './components/Projects/ProjectMain'
 import Payment from './components/Payments/Payment'
 import Faqs from './components/faqs/Faqs'
-import Offers from './components/Reviews/ReviewMain'
+import SectionB from './sections/Offers'
+
 
 function Home() {
     return (
         <div>
             <Landpage />
-            <Offers />
+            <SectionB />
             <Service />
             <ProjectMain />
             <Process />
