@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/kollegs_/static/css/main.61d54ea6.css",
-    "main.js": "/kollegs_/static/js/main.907f5921.js",
+    "main.css": "/kollegs_/static/css/main.c15b6e1e.css",
+    "main.js": "/kollegs_/static/js/main.0a32cfb2.js",
+    "static/media/50574-aboutus-unscreen.gif": "/kollegs_/static/media/50574-aboutus-unscreen.d08c34992c5ca27bcf20.gif",
     "index.html": "/kollegs_/index.html",
-    "main.61d54ea6.css.map": "/kollegs_/static/css/main.61d54ea6.css.map",
-    "main.907f5921.js.map": "/kollegs_/static/js/main.907f5921.js.map"
+    "main.c15b6e1e.css.map": "/kollegs_/static/css/main.c15b6e1e.css.map",
+    "main.0a32cfb2.js.map": "/kollegs_/static/js/main.0a32cfb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d54ea6.css",
-    "static/js/main.907f5921.js"
+    "static/css/main.c15b6e1e.css",
+    "static/js/main.0a32cfb2.js"
   ]
 }
